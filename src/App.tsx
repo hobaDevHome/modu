@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Details from "./pages/Details";
 import Products from "./pages/Products";
+import HowToCustomize from "./pages/HowToCustomize";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="details" element={<Details />} />
           <Route path="products" element={<Products />} />
+          <Route path="howto" element={<HowToCustomize />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -43,6 +43,9 @@ export default function Navbar() {
           <Link to="/products" className={linkClass("/products")}>
             products
           </Link>
+          <Link to="/howto" className={linkClass("/howto")}>
+            howto
+          </Link>
         </div>
 
         <div className="flex items-center gap-4">
