@@ -1,15 +1,20 @@
-import React from 'react';
-import { Mail } from 'lucide-react';
-
 export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="pt-24 pb-12 px-4">
+      <section className="bg-gradient-to-b pt-24 pb-12 px-4">
         <div className="container mx-auto text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold mb-8">WELCOME TO<br />ModU</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-8">
+            WELCOME TO
+            <br />
+            ModU
+          </h1>
           <div className="max-w-md mx-auto">
-            <p className="text-xl mb-4">Sign Up Now and get<br />10% Off on your first order.</p>
+            <p className="text-xl mb-4">
+              Sign Up Now and get
+              <br />
+              10% Off on your first order.
+            </p>
             <div className="flex flex-col gap-2">
               <input
                 type="email"
@@ -27,7 +32,9 @@ export default function Home() {
       {/* Upcoming Events */}
       <section className="py-12 px-4">
         <div className="container mx-auto">
-          <h2 className="text-2xl font-bold text-white mb-6">Our Upcoming Events:</h2>
+          <h2 className="text-2xl font-bold text-white mb-6">
+            Our Upcoming Events:
+          </h2>
           <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
             <div className="flex flex-col md:flex-row items-center gap-4">
               <div className="text-white">
@@ -57,8 +64,12 @@ export default function Home() {
                 alt="Home Accessories"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white">Tailored Home Accessories</h3>
-              <p className="text-gray-300">Unique and stylish home accessories that add your unique style</p>
+              <h3 className="text-xl font-semibold text-white">
+                Tailored Home Accessories
+              </h3>
+              <p className="text-gray-300">
+                Unique and stylish home accessories that add your unique style
+              </p>
             </div>
             <div className="text-center p-6">
               <img
@@ -66,8 +77,12 @@ export default function Home() {
                 alt="Design Preview"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white">See Your Designs Come to Life</h3>
-              <p className="text-gray-300">Visualize your design creations with our preview tool</p>
+              <h3 className="text-xl font-semibold text-white">
+                See Your Designs Come to Life
+              </h3>
+              <p className="text-gray-300">
+                Visualize your design creations with our preview tool
+              </p>
             </div>
             <div className="text-center p-6">
               <img
@@ -75,8 +90,13 @@ export default function Home() {
                 alt="Jewelry"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-xl font-semibold text-white">Custom Jewelry Creations</h3>
-              <p className="text-gray-300">Make a statement with custom jewelry designed according to your style</p>
+              <h3 className="text-xl font-semibold text-white">
+                Custom Jewelry Creations
+              </h3>
+              <p className="text-gray-300">
+                Make a statement with custom jewelry designed according to your
+                style
+              </p>
             </div>
           </div>
         </div>

@@ -2,8 +2,13 @@ import React from "react";
 
 export default function Customize() {
   return (
-    <main className="mx-auto my-0  max-w-[1440px] max-md:max-w-[991px] max-sm:max-w-screen-sm">
-      <section className="p-10 text-center max-sm:p-5 ">
+    <main className="mx-auto my-0 bg-white max-w-[1440px] max-md:max-w-[991px] max-sm:max-w-screen-sm">
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+      />
+
+      <section className="p-10 text-center max-sm:p-5 pt-24">
         <h1 className="text-6xl font-light text-black max-sm:text-5xl">
           Customize Your Own Product
         </h1>

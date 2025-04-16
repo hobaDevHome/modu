@@ -11,7 +11,7 @@ export default function Navbar() {
     `text-white hover:text-gray-200 ${isActive(path) ? "font-semibold" : ""}`;
 
   return (
-    <header className="fixed w-full bg-transparent z-50 p-4">
+    <header className="fixed w-full bg-teal-500 z-50 p-4">
       <nav className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-white">
           ModU
